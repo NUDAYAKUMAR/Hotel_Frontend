@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="SVFF Tiffin Hotel - Authentic South Indian Tiffin in your neighbourhood. Fresh, hygienic and delicious every morning."/>
+  <title>SVFF Tiffin Hotel - Authentic South Indian Tiffin</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <div class="brand-logo">SV<span>FF</span></div>
+        <span class="brand-tagline">Tiffin Hotel</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav gap-1">
+          <li class="nav-item"><a class="nav-link active" href="index.html">🏠 Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html">🍽️ Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">ℹ️ About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">📞 Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO (stall photo is the faded full-bleed background — see .hero.hero--stall-bg in css/style.css) -->
+  <section class="hero hero--stall-bg" id="home">
+    <div class="hero-overlay"></div>
+    <div class="container py-5">
+      <div class="row justify-content-center gy-5">
+        <div class="col-lg-10 col-xl-8 hero-content text-center text-lg-start">
+          <div class="hero-badge">🌟 Since 2014 — Shree Veerabhadreswara Fast Food</div>
+          <h1 class="hero-title">
+            <span class="highlight">SVFF</span><br>
+            Tiffin Hotel
+          </h1>
+          <p class="hero-subtitle">Pure South Indian Flavours</p>
+          <p class="hero-desc">
+            Experience the authentic taste of South Indian tiffin — freshly prepared every morning with the finest ingredients. From crispy dosas to soft idlis, every bite is a memory.
+          </p>
+          <div class="d-flex gap-3 flex-wrap">
+            <a href="menu.html" class="btn-primary-custom">🍛 View Full Menu</a>
+            <a href="contact.html" class="btn-outline-custom">📍 Find Us</a>
+          </div>
+          <div class="hero-stats justify-content-center justify-content-lg-start">
+            <div class="stat-item">
+              <div class="stat-number">12+</div>
+              <div class="stat-label">Years of Service</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" id="heroItemCount">10+</div>
+              <div class="stat-label">Tiffin Items</div>
+            </div>
+          </div>
+          <p class="hero-stall-caption mt-4 mb-0" style="color:rgba(255,255,255,0.55);font-size:0.88rem;max-width:36rem;">
+            <span class="d-none d-lg-inline">Your stall at work — </span>Pure veg · Maski · Old Bus Stand, Lingsugur Road
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TODAY'S SPECIAL -->
+  <section class="todays-special" id="special">
+    <div class="container">
+      <div class="text-center section-header">
+        <div class="section-badge">⚡ Limited Daily</div>
+        <h2 class="section-title">Today's <span class="accent">Special</span></h2>
+        <div class="section-divider mx-auto"></div>
+      </div>
+      <div id="todaySpecialContainer">
+        <div class="loading-spinner"><div class="spinner"></div><p>Loading today's special...</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED ITEMS -->
+  <section class="featured-section" id="featured">
+    <div class="container">
+      <div class="row align-items-center mb-5">
+        <div class="col-md-7">
+          <div class="section-badge">🍽️ Our Menu</div>
+          <h2 class="section-title mt-2">Featured <span class="accent">Tiffin Items</span></h2>
+          <div class="section-divider"></div>
+          <p class="section-desc">Freshly prepared every morning with traditional recipes passed down through generations.</p>
+        </div>
+        <div class="col-md-5 text-md-end mt-3 mt-md-0">
+          <a href="menu.html" class="btn-primary-custom">View All Items →</a>
+        </div>
+      </div>
+      <div class="row g-4" id="featuredItemsContainer">
+        <div class="col-12 loading-spinner"><div class="spinner"></div><p>Loading menu...</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OPENING HOURS -->
+  <section class="hours-section" id="hours">
+    <div class="container">
+      <div class="row align-items-center gy-5">
+        <div class="col-lg-5">
+          <div class="section-badge" style="border-color: rgba(250,163,7,0.3); color: var(--secondary);">🕐 Timings</div>
+          <h2 class="section-title mt-2" style="color:white;">Opening <span style="color:var(--secondary)">Hours</span></h2>
+          <div class="section-divider"></div>
+          <p style="color:rgba(255,255,255,0.6); line-height:1.8; font-size:0.95rem;">
+            We open bright and early every day to serve you the freshest South Indian breakfast. Come hungry, leave happy!
+          </p>
+          <div class="mt-4 d-flex align-items-center gap-3">
+            <div style="width:12px;height:12px;border-radius:50%;background:#4ade80;box-shadow:0 0 0 4px rgba(74,222,128,0.2);"></div>
+            <span style="color:#4ade80;font-weight:600;">Currently Open</span>
+          </div>
+          <a href="contact.html" class="btn-primary-custom mt-4 d-inline-block">📍 Get Directions</a>
+        </div>
+        <div class="col-lg-6 offset-lg-1">
+          <div class="hours-card">
+            <div class="hours-item"><span class="hours-day">Evening service</span><span class="hours-time">1:00 PM – 8:00 PM</span></div>
+            <div class="hours-item"><span class="hours-day">Morning tiffin</span><span class="hours-time">5:00 AM – 12:00 PM</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="py-5 my-4">
+    <div class="container">
+      <div class="text-center section-header">
+        <div class="section-badge">💎 Why SVFF</div>
+        <h2 class="section-title mt-2">What Makes Us <span class="accent">Special</span></h2>
+        <div class="section-divider mx-auto"></div>
+      </div>
+      <div class="row g-4">
+        <div class="col-sm-6 col-lg-3">
+          <div class="feature-icon-card">
+            <div class="feature-icon">🌿</div>
+            <h6>100% Pure Veg</h6>
+            <p>No meat, no compromise. Pure vegetarian kitchen every day.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="feature-icon-card">
+            <div class="feature-icon">🧼</div>
+            <h6>Hygiene First</h6>
+            <p>Prepared in a spotlessly clean kitchen with fresh ingredients.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="feature-icon-card">
+            <div class="feature-icon">💰</div>
+            <h6>Pocket Friendly</h6>
+            <p>Best taste at the best price — value for every rupee spent.</p>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="feature-icon-card">
+            <div class="feature-icon">🏡</div>
+            <h6>Home-Like Taste</h6>
+            <p>Traditional recipes that remind you of your mother's cooking.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-lg-4">
+          <div class="footer-brand">SV<span>FF</span></div>
+          <div class="footer-tagline">Tiffin Hotel · Est. 2014</div>
+          <p class="footer-desc">Serving authentic South Indian tiffin with love, freshness and tradition since 2014.</p>
+          <div class="social-links">
+            <a href="#" class="social-link" title="Facebook">📘</a>
+            <a href="#" class="social-link" title="Instagram">📸</a>
+            <a href="#" class="social-link" title="WhatsApp">💬</a>
+            <a href="#" class="social-link" title="YouTube">▶️</a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-2 offset-lg-1">
+          <h6 class="footer-title">Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Our Menu</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-6 col-lg-2">
+          <h6 class="footer-title">Menu</h6>
+          <ul class="footer-links">
+             <li><a href="menu.html">Idli</a></li>
+            <li><a href="menu.html">Lemon Rice (Chitranna)</a></li>
+            <li><a href="menu.html">Girmit</a></li>
+            <li><a href="menu.html">Vada</a></li>
+            <li><a href="menu.html">Chilli Bajji</a></li>
+            <li><a href="menu.html">Mysore Bonda</a></li>
+            <li><a href="menu.html">Poori</a></li>
+            <li><a href="menu.html">Alasandi Vada</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h6 class="footer-title">Contact</h6>
+          <ul class="footer-links">
+            <li>📍 Near Old Bus Stand, Lingsugur Road, Maski</li>
+            <li>📞 <a href="tel:+919110821914">+91 9110821914</a></li>
+            <li>🕐 Every day: 1:00 PM – 8:00 PM</li>
+            <li>🕐 Every day: 5:00 AM – 12:00 PM</li>
+          </ul>
+        </div>
+      </div>
+      <hr class="footer-divider"/>
+      <div class="d-flex flex-wrap justify-content-between align-items-center footer-bottom">
+        <p class="mb-0"><span class="highlight">SVFF Tiffin Hotel</span></p>
+        <p class="mb-0">Made with ❤️ for South Indian food lovers</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/menuData.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
