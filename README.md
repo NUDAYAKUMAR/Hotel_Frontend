@@ -67,5 +67,5 @@ For any queries or feedback, feel free to reach out.
 * Payment gateway
 * User login system
 
-* Author
-* N Udayakumar
+##Author
+N Udayakumar
