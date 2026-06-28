@@ -21,7 +21,7 @@ window.SVFF_MENU_ITEMS = [
     isTodaysSpecial: false,
     isAvailable: true,
     description: 'Fluffy deep-fried pooris with potato masala.',
-    imageUrl: 'https://thumbs.dreamstime.com/b/poori-indian-food-closeup-view-image-varanasi-blur-background-poori-indian-food-closeup-view-image-varanasi-267750374.jpg'
+    imageUrl: 'images/poori.png'
   },
   // {
   //   id: 3,
@@ -71,7 +71,7 @@ window.SVFF_MENU_ITEMS = [
     isTodaysSpecial: false,
     isAvailable: true,
     description: 'Crispy black-eyed pea (alasande) fritters — golden, straight from the kadai.',
-    imageUrl: 'images/poori.png'
+    imageUrl: 'images/mysore-bonda.png'
   },
   {
     id: 8,
