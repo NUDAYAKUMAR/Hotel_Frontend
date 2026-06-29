@@ -34,38 +34,38 @@ window.SVFF_MENU_ITEMS = [
   //   imageUrl: 'images/pongal.png'
   // },
   {
-    id: 4,
-    itemName: 'Lemon Rice (Chitranna)',
+    id: 3,
+    itemName: 'Palav',
     price: 25,
     category: 'rice',
     isTodaysSpecial: false,
     isAvailable: true,
-    description: 'Tempered lemon rice with peanuts and herbs — chitranna.',
-    imageUrl: 'images/lemon-rice.jpg'
+    description: 'Aromatic South Indian vegetable palav made with basmati rice, fresh vegetables, and flavorful spices.',
+    imageUrl: 'images/palav.png'
+  },
+  {
+    id: 4,
+    itemName: 'Dosa',
+    price: 25,
+    category: 'Breakfast',
+    isTodaysSpecial: false,
+    isAvailable: true,
+    description: 'A crispy golden South Indian crepe made from fermented rice and lentil batter, served with coconut chutney and sambar.',
+    imageUrl: 'images/dosa.png'
   },
   {
     id: 5,
-    itemName: 'Girmit',
+    itemName: 'Vada',
     price: 25,
     category: 'snacks',
     isTodaysSpecial: false,
     isAvailable: true,
-    description: 'Mandakki / puffed-rice girmit — spicy, tangy North Karnataka style.',
-    imageUrl: 'images/girmit.png'
+    description: 'Crispy and golden South Indian medu vada made from urad dal batter, served hot with coconut chutney and flavorful sambar',
+    imageUrl: 'images/vada.png'
   },
-  // {
-  //   id: 6,
-  //   itemName: 'Medu Vada',
-  //   price: 25,
-  //   category: 'snacks',
-  //   isTodaysSpecial: false,
-  //   isAvailable: true,
-  //   description: 'Crispy urad dal vadas — golden, with curry leaves and green chilli in the batter.',
-  //   imageUrl: 'images/medu-vada.png'
-  // },
   {
-    id: 7,
-    itemName: 'Alasandi Vada',
+    id: 6,
+    itemName: 'Bonda',
     price: 20,
     category: 'snacks',
     isTodaysSpecial: false,
@@ -74,7 +74,7 @@ window.SVFF_MENU_ITEMS = [
     imageUrl: 'images/mysore-bonda.png'
   },
   {
-    id: 8,
+    id: 7,
     itemName: 'Chilli Bajji',
     price: 20,
     category: 'snacks',
@@ -84,23 +84,33 @@ window.SVFF_MENU_ITEMS = [
     imageUrl: 'images/chilli-bajji.png'
   },
   {
-    id: 9,
-    itemName: 'Mysore Bonda',
+    id: 8,
+    itemName: 'Paddu',
     price: 20,
+    category: 'Breakfast',
+    isTodaysSpecial: false,
+    isAvailable: true,
+    description: 'Soft, fluffy South Indian dumplings made from a fermented rice and lentil batter, cooked until golden brown and served with coconut chutney and sambar.',
+    imageUrl: 'images/paddu.png'
+  },
+  {
+    id: 9,
+    itemName: 'Tea',
+    price: 5,
     category: 'snacks',
     isTodaysSpecial: false,
     isAvailable: true,
-    description: 'Small golden punugulu / bonda — crispy outside, soft inside, with green chilli in the batter.',
-    imageUrl: 'images/mysore-bonda.png'
+    description: 'Hot and fresh tea served with love.',
+    imageUrl: 'images/tea.png'
   },
   {
     id: 10,
-    itemName: 'Badanekayi Bonda (Brinjal)',
-    price: 20,
+    itemName: 'Coffee',
+    price: 8,
     category: 'snacks',
     isTodaysSpecial: false,
     isAvailable: true,
-    description: 'Stuffed brinjal fritters, fried crisp — badanekayi bonda.',
-    imageUrl: 'images/badanekayi-bonda.jpg'
+    description: 'Hot and fresh coffee served with love.',
+    imageUrl: 'images/tea.png'
   }
 ];
